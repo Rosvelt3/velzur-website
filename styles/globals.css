@@ -1,16 +1,102 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+	font-family: 'Sequel Sans Black Obl Body';
+	src: url('../public/fonts/Sequel Sans Black Obl Body.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Black Obl Body.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+	font-family: 'Sequel Sans Medium Disp';
+	src: url('../public/fonts/Sequel Sans Medium Disp.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Medium Disp.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+	font-family: 'Sequel Sans Bold Disp';
+	src: url('../public/fonts/Sequel Sans Bold Disp.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Bold Disp.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sequel Sans Book Disp';
+	src: url('../public/fonts/Sequel Sans Book Disp.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Book Disp.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sequel Sans Semi Bold Disp';
+	src: url('../public/fonts/Sequel Sans Semi Bold Disp.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Semi Bold Disp.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sequel Sans Bold Head';
+	src: url('../public/fonts/Sequel Sans Bold Head.woff2') format('woff2'),
+		url('../public/fonts/Sequel Sans Bold Head.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+:root{
+	background-color: #0d0d0d;
+}
+ul {
+	all: unset;
+	color: #efefef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #efefef;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Sequel Sans Bold Disp';
+}
+
+h1 {
+	font-size: 9rem;
+}
+
+h2 {
+	font-size: 7.75rem;
+}
+
+h3 {
+	font-size: 6rem;
+}
+
+h4,
+h5 {
+	font-family: 'Sequel Sans Bold Head';
+}
+
+h4 {
+	font-size: 5.62rem;
+}
+
+h5 {
+	font-size: 4rem;
+}
+
+p {
+	font-family: 'Sequel Sans Book Disp';
+	font-size: 2rem;
+	line-height: 48px;
+	color: rgba(255, 255, 255, 0.8);
 }
