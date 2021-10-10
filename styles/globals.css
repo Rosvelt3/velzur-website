@@ -45,9 +45,15 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 :root{
+	font-size: 10px;
+}
+
+body{
 	background-color: #0d0d0d;
 }
+
 ul {
 	all: unset;
 	color: #efefef;
