@@ -23,7 +23,7 @@ export const CallToActionButton = ({ label, ...props }: CallToActionButton) => {
 				height: 10rem;
 				border: none;
 				border-radius: 50%;
-				font-family: 'Sequel Sans Semi Bold Disp';
+				font-family: 'Sequel Sans Semi Bold Disp', sans-serif;
 				font-size: 1.5rem;
 				color: #efefef;
 				background-color: #731dff;

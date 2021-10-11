@@ -51,7 +51,7 @@ export const Navbar = ({ language = 'ES' }: NavbarProps) => {
 
 				<span
 					css={css`
-						font-family: 'Sequel Sans Black Obl Body';
+						font-family: 'Sequel Sans Black Obl Body', sans-serif;
 						font-size: 1.5rem;
 						color: #efefef;
 					`}

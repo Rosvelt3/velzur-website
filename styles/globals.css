@@ -50,8 +50,8 @@ body{
 	background-color: #0d0d0d;
 }
 
-a{
-	font-family: 'Sequel Sans Book Disp';
+p a{
+	font-family: 'Sequel Sans Book Disp', sans-serif;
 	font-size: 1.25rem;
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
@@ -76,7 +76,7 @@ h6 {
 h1,
 h2,
 h3 {
-	font-family: 'Sequel Sans Bold Disp';
+	font-family: 'Sequel Sans Bold Disp', sans-serif;
 }
 
 h1 {
@@ -93,7 +93,7 @@ h3 {
 
 h4,
 h5 {
-	font-family: 'Sequel Sans Bold Head';
+	font-family: 'Sequel Sans Bold Head', sans-serif;
 }
 
 h4 {
@@ -105,12 +105,12 @@ h5 {
 }
 
 h6 {
-	font-family: 'Sequel Sans Medium Disp';
+	font-family: 'Sequel Sans Medium Disp', sans-serif;
 	font-size: 2rem;
 }
 
 p {
-	font-family: 'Sequel Sans Book Disp';
+	font-family: 'Sequel Sans Book Disp', sans-serif;
 	font-size: 1.25rem;
 	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.8);

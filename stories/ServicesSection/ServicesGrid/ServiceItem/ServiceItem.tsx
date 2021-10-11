@@ -28,7 +28,7 @@ export const ServiceItem = ({ title, description, itemsList}: ServiceItemProps) 
 			<p>{description}</p>
 			<ul
 				css={css`
-					font-family: 'Sequel Sans Medium Disp';
+					font-family: 'Sequel Sans Medium Disp', sans-serif;
 					font-size: 1.25rem;
 					list-style: disc;
 					list-style-position: inside;
