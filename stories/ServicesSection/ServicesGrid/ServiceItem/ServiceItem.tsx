@@ -1,5 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import Image from 'next/image';
+import listItemIcon from '../../../../public/images/list-item-icon.svg';
 
 export interface ServiceItemProps {
 	/**
@@ -16,7 +18,7 @@ export interface ServiceItemProps {
 	itemsList: string[];
 }
 
-export const ServiceItem = ({ title, description, itemsList}: ServiceItemProps) => {
+export const ServiceItem = ({ title, description, itemsList }: ServiceItemProps) => {
 	return (
 		<div
 			css={css`
@@ -30,13 +32,22 @@ export const ServiceItem = ({ title, description, itemsList}: ServiceItemProps) 
 				css={css`
 					font-family: 'Sequel Sans Medium Disp', sans-serif;
 					font-size: 1.25rem;
-					list-style: disc;
-					list-style-position: inside;
+					list-style: none;
 					line-height: 1.5;
 				`}
 			>
 				{itemsList.map((item) => (
-					<li key={item}>{item}</li>
+					<li
+						css={css`
+							display: flex;
+							align-items: center;
+						`}
+						key={item}
+					>
+						<Image src={listItemIcon} width={24} height={24} />
+						<div css={css`margin-right: 0.5rem;`}> </div>
+						{item}
+					</li>
 				))}
 			</ul>
 		</div>
