@@ -3,7 +3,7 @@ const theme = {
     primary: "#731dff",
     background: "#0d0d0d",
     text: "#efefef",
-    textAccent: "#ffffff",
+    textAccent: "rgba(255, 255, 255, 0.8)",
   }
 };
 

@@ -15,7 +15,7 @@ export const ServiceGrid = ({ services }: ServiceGridProps) => {
 			css={css`
 				display: grid;
 				grid-template-columns: repeat(2, auto);
-				gap: 15rem 4rem;
+				gap: 8rem 4rem;
 				grid-auto-rows: auto;
 			`}
 		>

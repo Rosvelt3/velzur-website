@@ -5,11 +5,11 @@ import { CallToActionButton } from './CallToActionButton/CallToActionButton';
 export const MainSection = () => (
 	<section>
 		<h1>
-			Construimos <br /> experiencias digitales <br /> para personas <br /> increíbles.
+			Construimos experiencias digitales para personas increíbles.
 		</h1>
 		<CallToActionButton
 			css={css`
-				margin-top: 4.8rem;
+				margin-top: 2rem;
 			`}
 			label="Contáctanos"
 		/>

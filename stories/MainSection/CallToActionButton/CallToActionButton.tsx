@@ -19,15 +19,17 @@ export const CallToActionButton = ({ label, ...props }: CallToActionButton) => {
 	return (
 		<button
 			css={css`
-				padding: 1.5rem 1rem 1.5rem 1rem;
+				width: 10rem;
+				height: 10rem;
 				border: none;
-				border-radius: 3px;
+				border-radius: 50%;
 				font-family: 'Sequel Sans Semi Bold Disp';
-				font-size: 2rem;
+				font-size: 1.5rem;
 				color: #efefef;
 				background-color: #731dff;
 				&:hover {
 					cursor: pointer;
+					filter: brightness(85%);
 				}
 			`}
 			type="button"

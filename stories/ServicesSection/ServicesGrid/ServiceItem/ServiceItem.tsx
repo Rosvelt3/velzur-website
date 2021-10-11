@@ -24,15 +24,15 @@ export const ServiceItem = ({ title, description, itemsList}: ServiceItemProps) 
 				padding-top: 3.4rem;
 			`}
 		>
-			<h5>{title}</h5>
+			<h4>{title}</h4>
 			<p>{description}</p>
 			<ul
 				css={css`
 					font-family: 'Sequel Sans Medium Disp';
-					font-size: 2rem;
+					font-size: 1.25rem;
 					list-style: disc;
 					list-style-position: inside;
-					line-height: 3rem;
+					line-height: 1.5;
 				`}
 			>
 				{itemsList.map((item) => (

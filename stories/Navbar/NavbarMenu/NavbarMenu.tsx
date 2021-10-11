@@ -34,7 +34,7 @@ export const NavbarMenu = ({ menuItems }: NavbarMenuProps) => (
 					<a
 						css={css`
 							color: #efefef;
-							font-size: 2.25rem;
+							font-size: 1.8rem;
 						`}
 					>
 						{item.text}

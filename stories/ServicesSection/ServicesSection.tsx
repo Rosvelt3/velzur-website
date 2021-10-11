@@ -67,7 +67,7 @@ export const ServicesSection = () => (
 	<section>
 		<div
 			css={css`
-				max-width: 80rem;
+				max-width: 50rem;
 				margin: auto;
 				margin-bottom: 6.25rem;
 			`}
@@ -89,5 +89,22 @@ export const ServicesSection = () => (
 		<div>
 			<ServiceGrid services={services} />
 		</div>
+		<div
+			css={css`
+				margin-bottom: 20rem;
+			`}
+		></div>
+		<div
+			css={css`
+				margin-bottom: 18rem;
+			`}
+		></div>
+		<h2
+			css={css`
+				text-align: center;
+			`}
+		>
+			Somos humanos que trabajamos por humanos.
+		</h2>
 	</section>
 );

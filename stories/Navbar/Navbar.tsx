@@ -47,12 +47,12 @@ export const Navbar = ({ language = 'ES' }: NavbarProps) => {
 					align-items: center;
 				`}
 			>
-				<Image src={velzurLogo} width={209} height={40} />
+				<Image src={velzurLogo} width={137.8} height={27} />
 
 				<span
 					css={css`
 						font-family: 'Sequel Sans Black Obl Body';
-						font-size: 1.75rem;
+						font-size: 1.5rem;
 						color: #efefef;
 					`}
 				>

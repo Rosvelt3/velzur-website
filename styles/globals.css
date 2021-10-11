@@ -44,14 +44,17 @@
 		url('../public/fonts/Sequel Sans Bold Head.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
-
-:root{
-	font-size: 10px;
-}
+}	
 
 body{
 	background-color: #0d0d0d;
+}
+
+a{
+	font-family: 'Sequel Sans Book Disp';
+	font-size: 1.25rem;
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
 }
 
 ul {
@@ -67,6 +70,7 @@ h5,
 h6 {
 	margin: 0;
 	color: #efefef;
+	font-weight: normal;
 }
 
 h1,
@@ -76,15 +80,15 @@ h3 {
 }
 
 h1 {
-	font-size: 9rem;
+	font-size: 6.5rem;
 }
 
 h2 {
-	font-size: 7.75rem;
+	font-size: 5.25rem;
 }
 
 h3 {
-	font-size: 6rem;
+	font-size: 3.5rem;
 }
 
 h4,
@@ -93,16 +97,21 @@ h5 {
 }
 
 h4 {
-	font-size: 5.62rem;
+	font-size: 3.12rem;
 }
 
 h5 {
-	font-size: 4rem;
+	font-size: 1.5rem;
+}
+
+h6 {
+	font-family: 'Sequel Sans Medium Disp';
+	font-size: 2rem;
 }
 
 p {
 	font-family: 'Sequel Sans Book Disp';
-	font-size: 2rem;
-	line-height: 48px;
+	font-size: 1.25rem;
+	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.8);
 }

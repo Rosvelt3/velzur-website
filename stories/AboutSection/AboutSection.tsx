@@ -14,12 +14,12 @@ export const AboutSection = () => (
 		<div
 			css={css`
 				display: flex;
+				align-items: center;
 			`}
 		>
 			<h3
 				css={css`
 					flex-basis: 50%;
-                    padding-right: 6rem;
 				`}
 			>
 				Un buena experiencia digital no pasa en la pantalla.
