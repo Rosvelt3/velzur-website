@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { Navbar } from './Navbar/Navbar';
 import { MainSection } from './MainSection/MainSection';
 import { AboutSection } from './AboutSection/AboutSection';
@@ -18,42 +19,100 @@ export const Homepage = () => (
 		`}
 	>
 		<Navbar />
-		<MainSection />
-		<div
+		<Parallax
+			pages={8}
 			css={css`
-				margin-bottom: 22rem;
+				top: 0;
+				left: 0;
 			`}
-		></div>
-		<AboutSection />
-		<div
-			css={css`
-				margin-bottom: 22rem;
-			`}
-		></div>
-		<ServicesSection />
-		<div
-			css={css`
-				margin-bottom: 22rem;
-			`}
-		></div>
-		<PhilosophySection />
-		<div
-			css={css`
-				margin-bottom: 22rem;
-			`}
-		></div>
-		<TeamSection />
-		<div
-			css={css`
-				margin-bottom: 22rem;
-			`}
-		></div>
-		<ContactSection />
-		<div
-			css={css`
-				margin-bottom: 22rem;
-			`}
-		></div>
-		<Footer />
+		>
+			<ParallaxLayer
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+				offset={0.3}
+				speed={1}
+			>
+				<MainSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={1}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<AboutSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={2}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<ServicesSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={3}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<ServicesSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={4}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<PhilosophySection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={5}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<TeamSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={6}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<ContactSection />
+			</ParallaxLayer>
+
+			<ParallaxLayer
+				offset={7}
+				speed={1}
+				css={css`
+					max-width: 90rem;
+					margin-left: 15rem;
+				`}
+			>
+				<Footer />
+			</ParallaxLayer>
+		</Parallax>
 	</div>
 );

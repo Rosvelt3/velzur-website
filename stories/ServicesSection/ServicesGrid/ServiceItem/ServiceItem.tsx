@@ -45,7 +45,11 @@ export const ServiceItem = ({ title, description, itemsList }: ServiceItemProps)
 						key={item}
 					>
 						<Image src={listItemIcon} width={24} height={24} />
-						<div css={css`margin-right: 0.5rem;`}> </div>
+						<div
+							css={css`
+								margin-right: 0.5rem;
+							`}
+						/>
 						{item}
 					</li>
 				))}

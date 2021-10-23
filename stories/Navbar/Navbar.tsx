@@ -35,6 +35,25 @@ export const Navbar = ({ language = 'ES' }: NavbarProps) => {
 		<nav
 			css={css`
 				display: flex;
+				position: sticky;
+				top: 0;
+				z-index: 9999;
+				background: linear-gradient(
+					to bottom,
+					rgb(13, 13, 13) 0%,
+					rgba(13, 13, 13, 0.738) 19%,
+					rgba(13, 13, 13, 0.541) 34%,
+					rgba(13, 13, 13, 0.382) 47%,
+					rgba(13, 13, 13, 0.278) 56.5%,
+					rgba(13, 13, 13, 0.194) 65%,
+					rgba(13, 13, 13, 0.126) 73%,
+					rgba(13, 13, 13, 0.075) 80.2%,
+					rgba(13, 13, 13, 0.042) 86.1%,
+					rgba(13, 13, 13, 0.021) 91%,
+					rgba(13, 13, 13, 0.008) 95.2%,
+					rgba(13, 13, 13, 0.002) 98.2%,
+					transparent 100%
+				);
 			`}
 		>
 			<div
