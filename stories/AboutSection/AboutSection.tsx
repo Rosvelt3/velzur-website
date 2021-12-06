@@ -6,7 +6,7 @@ export const AboutSection = () => (
 		<h2
 			css={css`
 				text-align: center;
-                margin-bottom: 6.25rem;
+				margin-bottom: 6.25rem;
 			`}
 		>
 			¿Quiénes somos?
